@@ -54,13 +54,13 @@
         "featured_collection_dqiwza": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "watches"
           }
         },
         "featured_collection_VLCJQ6": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "cosmetics"
           }
         }
       },
