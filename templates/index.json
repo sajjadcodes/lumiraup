@@ -187,8 +187,8 @@
         "button_6E7wzz": {
           "type": "button",
           "settings": {
-            "button_label": "Read More",
-            "button_link": "shopify://pages/about-us",
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections",
             "button_style_secondary": false
           }
         }
