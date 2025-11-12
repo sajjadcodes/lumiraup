@@ -65,40 +65,6 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "collection_list_dwpxJy": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_dqiwza": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "watches"
-          }
-        },
-        "featured_collection_VLCJQ6": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "cosmetics"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_dqiwza",
-        "featured_collection_VLCJQ6"
-      ],
-      "name": "t:sections.collection-list.presets.name",
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 2,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
     "multicolumn_mRfJCb": {
       "type": "multicolumn",
       "blocks": {
@@ -165,6 +131,40 @@
         "swipe_on_mobile": false,
         "padding_top": 20,
         "padding_bottom": 20
+      }
+    },
+    "collection_list_dwpxJy": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_dqiwza": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "watches"
+          }
+        },
+        "featured_collection_VLCJQ6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cosmetics"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_dqiwza",
+        "featured_collection_VLCJQ6"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "color_scheme": "scheme-4",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
     "featured_collection": {
