@@ -21,6 +21,40 @@
         "padding_bottom": 52
       }
     },
+    "newsletter_tf3anq": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_7h37wQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join The Lumira Circle",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_XWHzJF": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p><br/>Get 10% off your first order + exclusive updates.</p>"
+          }
+        },
+        "email_form_RRQANm": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_7h37wQ",
+        "paragraph_XWHzJF",
+        "email_form_RRQANm"
+      ],
+      "name": "t:sections.newsletter.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -53,6 +87,7 @@
   },
   "order": [
     "custom_liquid_edrhEm",
+    "newsletter_tf3anq",
     "footer"
   ]
 }
