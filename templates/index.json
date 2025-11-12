@@ -49,16 +49,17 @@
         "slide_RacbKM": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/watches_banner_for_lumiraup.jpg",
             "image_overlay_opacity": 0,
             "heading": "Time Meets Elegance.",
             "heading_size": "h1",
             "subheading": "Discover handcrafted watches with modern details, built to last, designed to turn heads.",
-            "button_label": "Button label",
-            "link": "",
+            "button_label": "Shop Watches",
+            "link": "shopify://collections/watches",
             "button_style_secondary": false,
             "show_text_box": true,
-            "box_align": "middle-center",
-            "text_alignment": "center",
+            "box_align": "middle-right",
+            "text_alignment": "right",
             "text_alignment_mobile": "center",
             "color_scheme": ""
           }
