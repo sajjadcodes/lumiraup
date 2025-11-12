@@ -9,43 +9,128 @@
  */
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "slideshow_DzPtM6": {
+      "type": "slideshow",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "slide_RacbKM": {
+          "type": "slide",
           "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
+            "image": "shopify://shop_images/watches_banner_for_lumiraup.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "Time Meets Elegance.",
+            "heading_size": "h1",
+            "subheading": "Discover handcrafted watches with modern details, built to last, designed to turn heads.",
+            "button_label": "Shop Watches",
+            "link": "shopify://collections/watches",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-right",
+            "text_alignment": "right",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
           }
         },
-        "button": {
-          "type": "buttons",
+        "slide_B3qYDz": {
+          "type": "slide",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image": "shopify://shop_images/cosmatics_banner_for_lumiraup.png",
+            "image_overlay_opacity": 0,
+            "heading": "Glow That Defines You",
+            "heading_size": "hxxl",
+            "subheading": "Clean, luxury skincare and makeup essentials for everyday radiance",
+            "button_label": "Shop Cosmetics",
+            "link": "shopify://collections/cosmetics",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-left",
+            "text_alignment": "left",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "slide_RacbKM",
+        "slide_B3qYDz"
       ],
+      "name": "t:sections.slideshow.presets.name",
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
         "image_behavior": "none",
-        "desktop_content_position": "bottom-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": false,
-        "color_scheme": "scheme-3",
-        "stack_images_on_mobile": false,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "multicolumn_mRfJCb": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_NdgXXK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/stars_icon_c97d9ce8-7fa3-4f14-9d1d-ed884b6b0095.svg",
+            "title": "<strong>Top Rated Products</strong>",
+            "text": "<p>Loved by hundreds of happy customers</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UCUpwK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Money_back_icon_c33b540f-477f-4c67-8d33-c2b9b4264f3f.svg",
+            "title": "<strong>Money-Back Guarantee</strong>",
+            "text": "<p>100% refund if you’re not satisfied</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KrBKcx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/fast_delivery.svg",
+            "title": "<strong>Fast Delivery</strong>",
+            "text": "<p>Get your order delivered within 3–5 days</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_EkXb9E": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/secure_icon_bf83c502-9300-4654-bf6b-256303acabfa.svg",
+            "title": "<strong>Secure Checkout</strong>",
+            "text": "<p>Your payment is protected with SSL encryption</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_NdgXXK",
+        "column_UCUpwK",
+        "column_KrBKcx",
+        "column_EkXb9E"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "collection_list_dwpxJy": {
@@ -74,7 +159,7 @@
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 2,
-        "color_scheme": "",
+        "color_scheme": "scheme-4",
         "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -82,13 +167,60 @@
         "padding_bottom": 60
       }
     },
+    "image_with_text_4AMBBY": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_LwBz9y": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Us",
+            "heading_size": "h1"
+          }
+        },
+        "text_rzKxec": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_6E7wzz": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read More",
+            "button_link": "shopify://pages/about-us",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_LwBz9y",
+        "text_rzKxec",
+        "button_6E7wzz"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
         "collection": "all",
         "products_to_show": 8,
-        "title": "Featured products",
-        "heading_size": "h2",
+        "title": "Best Selling Watches",
+        "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -102,18 +234,69 @@
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
-        "show_rating": false,
+        "show_rating": true,
         "quick_add": "none",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "featured_collection_T8MfYY": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "",
+        "products_to_show": 4,
+        "title": "Best Selling Cosmetics",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_blog_dKji6x": {
+      "type": "featured-blog",
+      "name": "t:sections.featured-blog.presets.name",
+      "settings": {
+        "blog": "",
+        "post_limit": 3,
+        "heading": "Style Guide",
+        "heading_size": "hxl",
+        "columns_desktop": 4,
+        "show_view_all": true,
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "color_scheme": "scheme-3",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "image_banner",
+    "slideshow_DzPtM6",
+    "multicolumn_mRfJCb",
     "collection_list_dwpxJy",
-    "featured_collection"
+    "image_with_text_4AMBBY",
+    "featured_collection",
+    "featured_collection_T8MfYY",
+    "featured_blog_dKji6x"
   ]
 }
