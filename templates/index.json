@@ -73,7 +73,7 @@
           "settings": {
             "image": "shopify://shop_images/star.svg",
             "title": "<strong>Top Rated Products</strong>",
-            "text": "<p>Loved by hundreds of happy customers</p>",
+            "text": "<p>Trusted by 100+ Happy Customers</p>",
             "link_label": "",
             "link": ""
           }
@@ -83,7 +83,7 @@
           "settings": {
             "image": "shopify://shop_images/dollar-sign.svg",
             "title": "<strong>Money-Back Guarantee</strong>",
-            "text": "<p>100% refund if you’re not satisfied</p>",
+            "text": "<p>30-Day Satisfaction Promise</p>",
             "link_label": "",
             "link": ""
           }
@@ -93,7 +93,7 @@
           "settings": {
             "image": "shopify://shop_images/truck.svg",
             "title": "<strong>Fast Delivery</strong>",
-            "text": "<p>Get your order delivered within 3–5 days</p>",
+            "text": "<p>Swift 3–5 Day Delivery</p>",
             "link_label": "",
             "link": ""
           }
@@ -103,7 +103,7 @@
           "settings": {
             "image": "shopify://shop_images/shield-icons.svg",
             "title": "<strong>Secure Checkout</strong>",
-            "text": "<p>Your payment is protected with SSL encryption</p>",
+            "text": "<p>Encrypted Payments You Can Trust</p>",
             "link_label": "",
             "link": ""
           }
@@ -279,7 +279,7 @@
         "post_limit": 3,
         "heading": "Style Guide",
         "heading_size": "hxl",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "show_view_all": true,
         "show_image": true,
         "show_date": true,
