@@ -71,7 +71,7 @@
         "column_NdgXXK": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/stars_icon_c97d9ce8-7fa3-4f14-9d1d-ed884b6b0095.svg",
+            "image": "shopify://shop_images/star.svg",
             "title": "<strong>Top Rated Products</strong>",
             "text": "<p>Loved by hundreds of happy customers</p>",
             "link_label": "",
@@ -81,7 +81,7 @@
         "column_UCUpwK": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Money_back_icon_c33b540f-477f-4c67-8d33-c2b9b4264f3f.svg",
+            "image": "shopify://shop_images/dollar-sign.svg",
             "title": "<strong>Money-Back Guarantee</strong>",
             "text": "<p>100% refund if you’re not satisfied</p>",
             "link_label": "",
@@ -91,7 +91,7 @@
         "column_KrBKcx": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/fast_delivery.svg",
+            "image": "shopify://shop_images/truck.svg",
             "title": "<strong>Fast Delivery</strong>",
             "text": "<p>Get your order delivered within 3–5 days</p>",
             "link_label": "",
@@ -101,7 +101,7 @@
         "column_EkXb9E": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/secure_icon_bf83c502-9300-4654-bf6b-256303acabfa.svg",
+            "image": "shopify://shop_images/shield-icons.svg",
             "title": "<strong>Secure Checkout</strong>",
             "text": "<p>Your payment is protected with SSL encryption</p>",
             "link_label": "",
@@ -159,7 +159,7 @@
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 2,
-        "color_scheme": "scheme-4",
+        "color_scheme": "scheme-bf838a52-5946-4857-96a6-447fc346c057",
         "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
