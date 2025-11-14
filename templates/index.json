@@ -271,55 +271,6 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_wJQB6Q": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_qWNCxF": {
-          "type": "heading",
-          "settings": {
-            "heading": "Reviews",
-            "heading_size": "h1"
-          }
-        },
-        "text_XtxwBA": {
-          "type": "text",
-          "settings": {
-            "text": "<p>“Absolutely love my LumiraUp watch — premium feel and fast delivery!”</p><p>- Ayesha, Verified Buyer</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_qWNCxF",
-        "text_XtxwBA"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "featured_blog_dKji6x": {
-      "type": "featured-blog",
-      "name": "t:sections.featured-blog.presets.name",
-      "settings": {
-        "blog": "",
-        "post_limit": 3,
-        "heading": "The Lumira Edit.",
-        "heading_size": "hxl",
-        "columns_desktop": 3,
-        "show_view_all": true,
-        "show_image": true,
-        "show_date": true,
-        "show_author": false,
-        "color_scheme": "scheme-bf838a52-5946-4857-96a6-447fc346c057",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
     "reviews_kRRz3t": {
       "type": "reviews",
       "blocks": {
@@ -357,6 +308,24 @@
       "settings": {
         "heading": "Our Happy Customers"
       }
+    },
+    "featured_blog_dKji6x": {
+      "type": "featured-blog",
+      "name": "t:sections.featured-blog.presets.name",
+      "settings": {
+        "blog": "",
+        "post_limit": 3,
+        "heading": "The Lumira Edit.",
+        "heading_size": "hxl",
+        "columns_desktop": 3,
+        "show_view_all": true,
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "color_scheme": "scheme-bf838a52-5946-4857-96a6-447fc346c057",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
@@ -366,8 +335,7 @@
     "image_with_text_4AMBBY",
     "featured_collection",
     "featured_collection_T8MfYY",
-    "rich_text_wJQB6Q",
-    "featured_blog_dKji6x",
-    "reviews_kRRz3t"
+    "reviews_kRRz3t",
+    "featured_blog_dKji6x"
   ]
 }
