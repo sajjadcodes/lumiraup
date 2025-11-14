@@ -1,0 +1,82 @@
+<div class="lumira-badges-section">
+  <div class="lumira-badges-container">
+
+    {% if section.settings.heading != blank %}
+      <h2 class="lumira-badges-heading">{{ section.settings.heading }}</h2>
+    {% endif %}
+
+    <div class="lumira-badges-grid">
+      {% for block in section.blocks %}
+        <div class="lumira-badge-card" {{ block.shopify_attributes }}>
+          
+          {% if block.settings.icon != blank %}
+            <img
+              src="{{ block.settings.icon | image_url: width: 80 }}"
+              alt="badge icon"
+              class="lumira-badge-icon"
+            >
+          {% endif %}
+          
+          <h4 class="lumira-badge-title">{{ block.settings.title }}</h4>
+
+          {% if block.settings.text != blank %}
+            <p class="lumira-badge-text">{{ block.settings.text }}</p>
+          {% endif %}
+          
+        </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</div>
+
+{{ 'section-badges.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'section-badges.js' | asset_url }}"></script>
+
+{% schema %}
+{
+  "name": "Lumira Trusted Badges",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Section Heading",
+      "default": "Why Shop With Us?"
+    }
+  ],
+
+  "blocks": [
+    {
+      "type": "badge",
+      "name": "Badge Item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Badge Icon"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Fast Shipping"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Short Description",
+          "default": "Delivered within 2–5 days"
+        }
+      ]
+    }
+  ],
+
+  "max_blocks": 6,
+  "presets": [
+    {
+      "name": "Trusted Badges",
+      "category": "Trust"
+    }
+  ]
+}
+{% endschema %}
