@@ -71,9 +71,9 @@
         "column_NdgXXK": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/stars_icon_c97d9ce8-7fa3-4f14-9d1d-ed884b6b0095.svg",
+            "image": "shopify://shop_images/star.svg",
             "title": "<strong>Top Rated Products</strong>",
-            "text": "<p>Loved by hundreds of happy customers</p>",
+            "text": "<p>Trusted by 100+ Happy Customers</p>",
             "link_label": "",
             "link": ""
           }
@@ -81,9 +81,9 @@
         "column_UCUpwK": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Money_back_icon_c33b540f-477f-4c67-8d33-c2b9b4264f3f.svg",
+            "image": "shopify://shop_images/dollar-sign.svg",
             "title": "<strong>Money-Back Guarantee</strong>",
-            "text": "<p>100% refund if you’re not satisfied</p>",
+            "text": "<p>30-Day Satisfaction Promise</p>",
             "link_label": "",
             "link": ""
           }
@@ -91,9 +91,9 @@
         "column_KrBKcx": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/fast_delivery.svg",
+            "image": "shopify://shop_images/truck.svg",
             "title": "<strong>Fast Delivery</strong>",
-            "text": "<p>Get your order delivered within 3–5 days</p>",
+            "text": "<p>Swift 3–5 Day Delivery</p>",
             "link_label": "",
             "link": ""
           }
@@ -101,9 +101,9 @@
         "column_EkXb9E": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/secure_icon_bf83c502-9300-4654-bf6b-256303acabfa.svg",
+            "image": "shopify://shop_images/shield-icons.svg",
             "title": "<strong>Secure Checkout</strong>",
-            "text": "<p>Your payment is protected with SSL encryption</p>",
+            "text": "<p>Encrypted Payments You Can Trust</p>",
             "link_label": "",
             "link": ""
           }
@@ -159,7 +159,7 @@
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 2,
-        "color_scheme": "scheme-4",
+        "color_scheme": "scheme-bf838a52-5946-4857-96a6-447fc346c057",
         "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -180,15 +180,15 @@
         "text_rzKxec": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p><br/>At LumiraUp, we merge timeless craftsmanship with modern beauty — from our watches to our skincare essentials<br/></p>",
             "text_style": "body"
           }
         },
         "button_6E7wzz": {
           "type": "button",
           "settings": {
-            "button_label": "Read More",
-            "button_link": "shopify://pages/about-us",
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections",
             "button_style_secondary": false
           }
         }
@@ -271,22 +271,53 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_wJQB6Q": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qWNCxF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Reviews",
+            "heading_size": "h1"
+          }
+        },
+        "text_XtxwBA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“Absolutely love my LumiraUp watch — premium feel and fast delivery!”</p><p>- Ayesha, Verified Buyer</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qWNCxF",
+        "text_XtxwBA"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "featured_blog_dKji6x": {
       "type": "featured-blog",
       "name": "t:sections.featured-blog.presets.name",
       "settings": {
         "blog": "",
         "post_limit": 3,
-        "heading": "Style Guide",
+        "heading": "The Lumira Edit.",
         "heading_size": "hxl",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "show_view_all": true,
         "show_image": true,
         "show_date": true,
         "show_author": false,
-        "color_scheme": "scheme-3",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "color_scheme": "scheme-bf838a52-5946-4857-96a6-447fc346c057",
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     }
   },
@@ -297,6 +328,7 @@
     "image_with_text_4AMBBY",
     "featured_collection",
     "featured_collection_T8MfYY",
+    "rich_text_wJQB6Q",
     "featured_blog_dKji6x"
   ]
 }

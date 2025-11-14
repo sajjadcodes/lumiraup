@@ -11,11 +11,67 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "custom_liquid_edrhEm": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "newsletter_tf3anq": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_7h37wQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join The Lumira Circle",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_XWHzJF": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p><br/>Get 10% off your first order + exclusive updates.</p>"
+          }
+        },
+        "email_form_RRQANm": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_7h37wQ",
+        "paragraph_XWHzJF",
+        "email_form_RRQANm"
+      ],
+      "name": "t:sections.newsletter.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "footer": {
       "type": "footer",
+      "blocks": {
+        "link_list_NLNrtd": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        }
+      },
+      "block_order": [
+        "link_list_NLNrtd"
+      ],
       "settings": {
         "color_scheme": "scheme-1",
-        "newsletter_enable": true,
+        "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
         "show_social": true,
@@ -24,12 +80,14 @@
         "payment_enable": true,
         "show_policy": true,
         "margin_top": 0,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     }
   },
   "order": [
+    "custom_liquid_edrhEm",
+    "newsletter_tf3anq",
     "footer"
   ]
 }
