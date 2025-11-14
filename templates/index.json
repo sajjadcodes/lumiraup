@@ -319,6 +319,44 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
+    },
+    "reviews_kRRz3t": {
+      "type": "reviews",
+      "blocks": {
+        "review_8Bp3Wx": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "review_text": "Amazing product! Highly recommended.",
+            "author": "John Doe"
+          }
+        },
+        "review_YWjLfQ": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "review_text": "Amazing product! Highly recommended.",
+            "author": "John Doe"
+          }
+        },
+        "review_c8ibdz": {
+          "type": "review",
+          "settings": {
+            "stars": 5,
+            "review_text": "Amazing product! Highly recommended.",
+            "author": "John Doe"
+          }
+        }
+      },
+      "block_order": [
+        "review_8Bp3Wx",
+        "review_YWjLfQ",
+        "review_c8ibdz"
+      ],
+      "name": "Lumira Reviews",
+      "settings": {
+        "heading": "Our Happy Customers"
+      }
     }
   },
   "order": [
@@ -329,6 +367,7 @@
     "featured_collection",
     "featured_collection_T8MfYY",
     "rich_text_wJQB6Q",
-    "featured_blog_dKji6x"
+    "featured_blog_dKji6x",
+    "reviews_kRRz3t"
   ]
 }
