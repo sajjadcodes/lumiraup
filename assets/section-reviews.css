@@ -1,0 +1,55 @@
+.lumira-reviews-section {
+  padding: 60px 0;
+  background: #f8f8f8;
+}
+
+.lumira-reviews-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.lumira-reviews-heading {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.lumira-reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.lumira-review-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.lumira-review-card:hover {
+  transform: translateY(-4px);
+}
+
+.lumira-review-rating {
+  color: #ffcc00;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.lumira-review-text {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.lumira-review-author {
+  font-weight: 600;
+  color: #222;
+  font-size: 14px;
+}
