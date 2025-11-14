@@ -65,72 +65,51 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "multicolumn_mRfJCb": {
-      "type": "multicolumn",
+    "trusted_badges_j8Qj7r": {
+      "type": "trusted-badges",
       "blocks": {
-        "column_NdgXXK": {
-          "type": "column",
+        "badge_DwwFHT": {
+          "type": "badge",
           "settings": {
-            "image": "shopify://shop_images/star.svg",
-            "title": "<strong>Top Rated Products</strong>",
-            "text": "<p>Trusted by 100+ Happy Customers</p>",
-            "link_label": "",
-            "link": ""
+            "icon": "shopify://shop_images/star.svg",
+            "title": "Top Rated Products",
+            "text": "Trusted by 100+  Customers"
           }
         },
-        "column_UCUpwK": {
-          "type": "column",
+        "badge_UgV7dT": {
+          "type": "badge",
           "settings": {
-            "image": "shopify://shop_images/dollar-sign.svg",
-            "title": "<strong>Money-Back Guarantee</strong>",
-            "text": "<p>30-Day Satisfaction Promise</p>",
-            "link_label": "",
-            "link": ""
+            "icon": "shopify://shop_images/dollar-sign.svg",
+            "title": "Money-Back Guarantee",
+            "text": "30-Day Satisfaction Promise"
           }
         },
-        "column_KrBKcx": {
-          "type": "column",
+        "badge_zrwPR9": {
+          "type": "badge",
           "settings": {
-            "image": "shopify://shop_images/truck.svg",
-            "title": "<strong>Fast Delivery</strong>",
-            "text": "<p>Swift 3–5 Day Delivery</p>",
-            "link_label": "",
-            "link": ""
+            "icon": "shopify://shop_images/truck.svg",
+            "title": "Fast Delivery",
+            "text": "Swift 3–5 Day Delivery"
           }
         },
-        "column_EkXb9E": {
-          "type": "column",
+        "badge_MMhRW7": {
+          "type": "badge",
           "settings": {
-            "image": "shopify://shop_images/shield-icons.svg",
-            "title": "<strong>Secure Checkout</strong>",
-            "text": "<p>Encrypted Payments You Can Trust</p>",
-            "link_label": "",
-            "link": ""
+            "icon": "shopify://shop_images/shield-icons.svg",
+            "title": "Secure Checkout",
+            "text": "Encrypted Payments"
           }
         }
       },
       "block_order": [
-        "column_NdgXXK",
-        "column_UCUpwK",
-        "column_KrBKcx",
-        "column_EkXb9E"
+        "badge_DwwFHT",
+        "badge_UgV7dT",
+        "badge_zrwPR9",
+        "badge_MMhRW7"
       ],
-      "name": "t:sections.multicolumn.presets.name",
+      "name": "Trusted Badges",
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 20,
-        "padding_bottom": 20
+        "heading": "Why Shop With Us?"
       }
     },
     "collection_list_dwpxJy": {
@@ -330,7 +309,7 @@
   },
   "order": [
     "slideshow_DzPtM6",
-    "multicolumn_mRfJCb",
+    "trusted_badges_j8Qj7r",
     "collection_list_dwpxJy",
     "image_with_text_4AMBBY",
     "featured_collection",
