@@ -107,6 +107,7 @@
         "badge_zrwPR9",
         "badge_MMhRW7"
       ],
+      "custom_css": [],
       "name": "Trusted Badges",
       "settings": {
         "heading": ""
@@ -208,7 +209,7 @@
         "enable_desktop_slider": false,
         "full_width": false,
         "show_view_all": true,
-        "view_all_style": "solid",
+        "view_all_style": "link",
         "color_scheme": "scheme-1",
         "image_ratio": "adapt",
         "image_shape": "default",
@@ -218,8 +219,8 @@
         "quick_add": "none",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 36
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
     "featured_collection_T8MfYY": {
