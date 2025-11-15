@@ -136,14 +136,14 @@
           "type": "badge",
           "settings": {
             "title": "100% Authentic Products",
-            "text": ""
+            "text": "Delivered within 2–5 days"
           }
         },
         "badge_nqGeta": {
           "type": "badge",
           "settings": {
             "title": "Trusted Brands Only",
-            "text": "loremupsw stherewe"
+            "text": "Delivered within 2–5 days"
           }
         },
         "badge_dWFXaU": {
@@ -218,12 +218,12 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "Multicolumn",
+        "title": "Why Choose LumiraUP",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "button_label": "Button label",
-        "button_link": "",
+        "button_label": "Explore Our Best Selling Products",
+        "button_link": "shopify://collections/best-sellers",
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
