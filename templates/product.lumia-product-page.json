@@ -49,10 +49,62 @@
           "type": "description",
           "settings": {}
         },
-        "share": {
-          "type": "share",
+        "inventory_qjb6xP": {
+          "type": "inventory",
           "settings": {
-            "share_label": "Share"
+            "text_style": "body",
+            "inventory_threshold": 10,
+            "show_inventory_quantity": true
+          }
+        },
+        "rating_3B784j": {
+          "type": "rating",
+          "settings": {}
+        },
+        "complementary_Kre9fe": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": false
+          }
+        },
+        "icon_with_text_fLcHTM": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "apple",
+            "image_1": "shopify://shop_images/star.svg",
+            "heading_1": "Top Rated",
+            "icon_2": "return",
+            "image_2": "shopify://shop_images/truck.svg",
+            "heading_2": "Fast Delivery",
+            "icon_3": "truck",
+            "image_3": "shopify://shop_images/shield-icons.svg",
+            "heading_3": "Secure Payment"
+          }
+        },
+        "collapsible_tab_qpeaHj": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_t4XWtf": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
           }
         }
       },
@@ -64,7 +116,12 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "inventory_qjb6xP",
+        "rating_3B784j",
+        "complementary_Kre9fe",
+        "icon_with_text_fLcHTM",
+        "collapsible_tab_qpeaHj",
+        "collapsible_tab_t4XWtf"
       ],
       "settings": {
         "enable_sticky_info": true,
