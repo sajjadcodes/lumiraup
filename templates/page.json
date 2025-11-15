@@ -11,13 +11,195 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_banner_BzFQf8": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_DnKNzE": {
+          "type": "heading",
+          "settings": {
+            "heading": "About",
+            "heading_size": "h1"
+          }
+        },
+        "text_8gMQEj": {
+          "type": "text",
+          "settings": {
+            "text": "At LumiraUP, we bring elegance and self-care together — from luxury watches to premium cosmetics, we curate products that make you look and feel confident every day.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DnKNzE",
+        "text_8gMQEj"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "image_with_text_qttBaa": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_BDVThV": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Story",
+            "heading_size": "h1"
+          }
+        },
+        "text_Wgn7jV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_UgyErL": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_BDVThV",
+        "text_Wgn7jV",
+        "button_UgyErL"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "image_with_text_9bJCHw": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_b6jq3W": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Vision",
+            "heading_size": "h1"
+          }
+        },
+        "text_GpbYrW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_RTbDP3": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_b6jq3W",
+        "text_GpbYrW",
+        "button_RTbDP3"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "image_with_text_kaMMMf": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_hpVyPz": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Vision",
+            "heading_size": "h1"
+          }
+        },
+        "text_itrzd9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_PyhBUz": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hpVyPz",
+        "text_itrzd9",
+        "button_PyhBUz"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_BzFQf8",
+    "image_with_text_qttBaa",
+    "image_with_text_9bJCHw",
+    "image_with_text_kaMMMf"
   ]
 }
