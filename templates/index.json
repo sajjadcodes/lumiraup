@@ -336,6 +336,51 @@
             "row_content": "<p>Yes, all cosmetic products are genuine, safe to use, and meet international skin safety standards.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_WXiPU6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What payment methods do you accept?",
+            "icon": "none",
+            "row_content": "<p>We accept major debit/credit cards, bank transfers, and Cash on Delivery (COD)* (<em>if enabled in your region</em>).</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9mhgWt": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long does shipping take?",
+            "icon": "none",
+            "row_content": "<p>Standard delivery usually takes <strong>3–5 working days</strong>. For international shipping, delivery time may vary based on location.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_nqMWjt": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer free shipping?",
+            "icon": "none",
+            "row_content": "<p>Yes, we offer <strong>free shipping on orders above 50,00</strong>.</p><h3></h3>",
+            "page": ""
+          }
+        },
+        "collapsible_row_bY9pLm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I track my order?",
+            "icon": "none",
+            "row_content": "<p>Once your order ships, you will receive a tracking link via email or SMS.</p><h3></h3><h3></h3>",
+            "page": ""
+          }
+        },
+        "collapsible_row_CVFNPD": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is your return policy?",
+            "icon": "none",
+            "row_content": "<p>We offer <strong>7-day easy returns</strong> for unused and unopened items in original packaging. Watches must be returned unworn with all tags intact.<br/></p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -343,7 +388,12 @@
         "collapsible_row_deemAd",
         "collapsible_row_FLyQeG",
         "collapsible_row_khYdRg",
-        "collapsible_row_b4Eg8h"
+        "collapsible_row_b4Eg8h",
+        "collapsible_row_WXiPU6",
+        "collapsible_row_9mhgWt",
+        "collapsible_row_nqMWjt",
+        "collapsible_row_bY9pLm",
+        "collapsible_row_CVFNPD"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
