@@ -14,6 +14,13 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_FDFpan": {
+          "type": "announcement",
+          "settings": {
+            "text": "Get Free delivery Over 5000 buy",
+            "link": ""
+          }
+        },
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
@@ -23,12 +30,13 @@
         }
       },
       "block_order": [
+        "announcement_FDFpan",
         "announcement-bar-0"
       ],
       "settings": {
         "auto_rotate": false,
         "change_slides_speed": 5,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-bf838a52-5946-4857-96a6-447fc346c057",
         "show_line_separator": true,
         "show_social": false,
         "enable_country_selector": false,
