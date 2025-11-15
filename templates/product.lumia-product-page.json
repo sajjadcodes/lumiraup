@@ -34,6 +34,14 @@
             "swatch_shape": "circle"
           }
         },
+        "inventory_qjb6xP": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 10,
+            "show_inventory_quantity": true
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
@@ -48,14 +56,6 @@
         "description": {
           "type": "description",
           "settings": {}
-        },
-        "inventory_qjb6xP": {
-          "type": "inventory",
-          "settings": {
-            "text_style": "body",
-            "inventory_threshold": 10,
-            "show_inventory_quantity": true
-          }
         },
         "rating_3B784j": {
           "type": "rating",
@@ -113,10 +113,10 @@
         "title",
         "price",
         "variant_picker",
+        "inventory_qjb6xP",
         "quantity_selector",
         "buy_buttons",
         "description",
-        "inventory_qjb6xP",
         "rating_3B784j",
         "complementary_Kre9fe",
         "icon_with_text_fLcHTM",
