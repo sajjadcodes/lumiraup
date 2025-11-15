@@ -128,12 +128,119 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
+    },
+    "trusted_badges_X84nhJ": {
+      "type": "trusted-badges",
+      "blocks": {
+        "badge_mEmEkh": {
+          "type": "badge",
+          "settings": {
+            "title": "100% Authentic Products",
+            "text": ""
+          }
+        },
+        "badge_nqGeta": {
+          "type": "badge",
+          "settings": {
+            "title": "Trusted Brands Only",
+            "text": "loremupsw stherewe"
+          }
+        },
+        "badge_dWFXaU": {
+          "type": "badge",
+          "settings": {
+            "title": "Fast & Secure Delivery",
+            "text": "Delivered within 2–5 days"
+          }
+        },
+        "badge_dtfPAh": {
+          "type": "badge",
+          "settings": {
+            "title": "Customer-First Service",
+            "text": "Delivered within 2–5 days"
+          }
+        },
+        "badge_ckq8Yn": {
+          "type": "badge",
+          "settings": {
+            "title": "Easy Returns",
+            "text": "Delivered within 2–5 days"
+          }
+        }
+      },
+      "block_order": [
+        "badge_mEmEkh",
+        "badge_nqGeta",
+        "badge_dWFXaU",
+        "badge_dtfPAh",
+        "badge_ckq8Yn"
+      ],
+      "name": "Trusted Badges",
+      "settings": {
+        "heading": "Our Promise"
+      }
+    },
+    "multicolumn_w3EUXe": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_jANxm8": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_C8LNQK": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_E8MMFg": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_jANxm8",
+        "column_C8LNQK",
+        "column_E8MMFg"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "Button label",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "image_banner_BzFQf8",
     "image_with_text_qttBaa",
-    "image_with_text_9bJCHw"
+    "image_with_text_9bJCHw",
+    "trusted_badges_X84nhJ",
+    "multicolumn_w3EUXe"
   ]
 }
