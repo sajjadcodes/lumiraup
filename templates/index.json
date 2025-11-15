@@ -16,7 +16,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/watches_banner_for_lumiraup.jpg",
-            "image_overlay_opacity": 50,
+            "image_overlay_opacity": 30,
             "heading": "Time Meets Elegance.",
             "heading_size": "hxl",
             "subheading": "Discover handcrafted watches with modern details, built to last, designed to turn heads.",
